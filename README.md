@@ -44,9 +44,6 @@ The project also serves as a demonstration of **data science workflow**—from d
 ## **Challenges & Solutions**
 Throughout the project, we encountered several **errors** and **fixed them systematically**:
 
-❌ **Encoding Issues** – Some categories in the test dataset were not present in training.  
-✔ **Solution:** Mapped unknown categories to `"Rare"` to maintain consistency.
-
 ❌ **NaN Values in Encoding** – After mapping categorical variables, `NaN` values appeared in test data.  
 ✔ **Solution:** Used `.fillna()` to handle missing values before encoding.
 
